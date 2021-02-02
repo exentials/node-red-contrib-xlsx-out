@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-xlsx-out",
+  "version": "0.0.1",
+  "description": "Convert a json payload to xlsx buffered file",
+  "main": "xlsx-out/xlsx-out.js",
+  "author": "Gambarotto Damiano",
+  "keywords": [
+    "node-red",
+    "JSON to excel",
+    "xlsx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exentials/node-red-contrib-xlsx-out.git"
+  },
+  "license": "MIT",
+  "node-red": {
+    "nodes": {
+      "xlsx-out": "xlsx-out/xlsx-out.js"
+    }
+  },
+  "dependencies": {
+    "json-as-xlsx": "^1.1.8"
+  }
+}
