@@ -43,7 +43,7 @@ module.exports = function (RED) {
             writeOptions: {} // Style options from https://github.com/SheetJS/sheetjs#writing-options
         };
 
-        var download = false; // If true will download the xlsx file, otherwise will return a buffer
+        var download = false;
 
         return xlsx(table.columns, table.content, settings, download); // Will download the excel file        
     }
